@@ -4,7 +4,11 @@
     font-weight: 400
 }
 
-body {}
+body {
+    background: url('https://pic.xzmon.link/file/047922ef267f655eaa117.jpg') no-repeat center / cover;
+    min-width: 100vw;
+    min-height: 100vh;
+}
 
 .footer {
     width: 100%;
