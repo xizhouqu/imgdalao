@@ -8,6 +8,8 @@
     <title>西洲图床</title>
     <meta name="keywords" content="西洲图床,免费图床,永久免费图床,在线图床,图片上传,图片外链" />
     <meta name="description" content="西洲图床成立与2023年,我们励志成为免费公益图床的天花板，让免费图床更上一层楼."/>
+    <link rel="shortcut icon" href="/asset/image/favicon.png" />
+    <link rel="bookmark" href="/asset/image/favicon.png" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="/asset/css/notifyme.css" rel="stylesheet">
@@ -20,7 +22,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="--bs-bg-opacity:0.5;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +34,7 @@
                         <a class="nav-link active" href="/">首页</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://tz.xzmon.me/">探针</a>
+                        <a class="nav-link" href="https://tz.xzmon.me/" target="_blank">探针</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">关于</a>
@@ -42,7 +44,7 @@
         </div>
     </nav>
     <div class="container kv-main">
-        <div class="page-header">
+        <div class="page-header" style="color: #fff;">
             <h1>图片或视频上传</h1> 每个文件最大 5 MB。每个请求最多 100 个文件。
         </div>
         <form enctype="multipart/form-data">
@@ -51,7 +53,7 @@
                     data-min-file-count="1" name="file" accept="image/*, video/*">
             </div>
         </form>
-        <form id="upload_option" enctype="multipart/form-data">
+        <form id="upload_option" enctype="multipart/form-data" style="color: #fff;">
         </form>
         <div id="showurl" style="display: none;">
             <ul class="nav nav-tabs" id="navTab" role="tablist">
@@ -113,9 +115,9 @@
     </div>
 
 
-    <footer class="footer">
+    <footer class="footer" style="--bs-bg-opacity:0;">
         <div class="container text-center">
-            <p class="text-muted">Copyright Ⓒ 2023 All rights reserved. 请勿上传违反中国法律的图片，违者后果自负。</p>           
+            <p class="text-muted" style="color: #fff !important;">Copyright Ⓒ 2023 All rights reserved. 请勿上传违反中国法律的图片，违者后果自负。</p>           
         </div>
     </footer>
     <div id="lightbox-overlay" class="lightbox-overlay">
