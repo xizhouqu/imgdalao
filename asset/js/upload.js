@@ -215,9 +215,9 @@ function render_uploaded() {
         var name = resp.data.url.split('/').pop();
         
         const WPRAW = "https://i3.wp.com/telegra.ph"  //使用wordpress.com加速
-	const WPCFRAW = "https://i3.wp.com/pic.xzmon.link"  //使用wordpress.com加速cf
+	const WPCFRAW = "https://i3.wp.com/pic.200246.xyz"  //使用wordpress.com加速cf
         const PhRAW = "https://telegra.ph"   //原地址
-        const PROXYURL = "https://pic.xzmon.link"  //自定义加速域名 默认是使用cloudflare
+        const PROXYURL = "https://pic.200246.xyz"  //自定义加速域名 默认是使用cloudflare
         const BASE_PROXYURL = PROXYURL ? PROXYURL : BASE_URL;
         
         var url = resp.data.thumb == null ? BASE_PROXYURL + resp.data.url : BASE_PROXYURL + resp.data.thumb.url;
